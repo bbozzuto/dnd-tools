@@ -1,13 +1,16 @@
-import json
 from tools import calculate_coins
 from tools import load_table
+
 
 class TreasureHoard:
     """Recreates the basic treasure hoard tables from D&D Dungeon master's guide... for now"""
 
     def __init__(self, cr=0):
         """Creates a new treasure hoard, requires a combat rating otherwise, defaults to 0"""
-        self.cr = int(cr)
+        if str(cr).isnumeric():
+            self.cr = int(cr)
+        else:
+            self.cr = 0
         self.coins = {}
 
         # load the coin payout table
@@ -18,6 +21,7 @@ class TreasureHoard:
              {'min': 17, 'max': 99, 'table': 'd'}]
 
     def get_coins(self):
+        """returns a dictionary with the quantity of each type of coin in the treasure hoard"""
         payout = {}
         cointable = load_table('../tables/coins.csv')
         for set in self.cointablekey:

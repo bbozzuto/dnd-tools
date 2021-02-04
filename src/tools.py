@@ -1,20 +1,38 @@
 import random
 import csv
+import re
 
 
 def calculate_coins(calculation):
+    # check the passed string to make sure it is properly formatted
+    pattern = re.compile('\d+[d]\d+[x]?\d*')
+    result = pattern.match(calculation)
+    if result is None:
+        raise Exception('function calculate_coins must receive a format [int]d[int]x[int]')
+
+    # determine the count of dice
     diepos = calculation.find("d", 0)
     diecount = int(calculation[0:diepos])
 
+    # determine the multiplier. If there is no multiplier, this value will be -1 and will be skipped
     multpos = calculation.find("x", 0)
-    diesize = int(calculation[diepos + 1:multpos])
+    if multpos > -1:
+        diesize = int(calculation[diepos + 1:multpos])
+    else:
+        diesize = int(calculation[diepos + 1:])
 
-    multiplier = int(calculation[multpos + 1:])
     coins = 0
     count = 1
+
+    # for each die, randomly select a number between 1 and the number of faces of the die
     while count <= diecount:
-        coins += random.randint(1, diesize) * multiplier
+        coins += random.randint(1, diesize)
         count += 1
+
+    # if the multiplier position is not a positive number, there is no multiplier, skip this
+    if multpos > 0:
+        multiplier = int(calculation[multpos + 1:])
+        coins *= multiplier
     return coins
 
 
