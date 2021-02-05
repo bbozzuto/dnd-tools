@@ -59,5 +59,33 @@ class TreasureHoardTests(unittest.TestCase):
         self.assertNotIn('silver', testcoins)
         self.assertNotIn('electrum', testcoins)
 
+    def test_get_items_cr0(self):
+        """Test a CR0 treasure hoard with a roll of 37"""
+        testhoard = TreasureHoard(0, 37)
+        testitems = testhoard.get_items()
+        self.assertEqual('2d6', testitems['artifact-roll'])
+        self.assertGreaterEqual(12, testitems['artifact-qty'])
+        self.assertLessEqual(2, testitems['artifact-qty'])
+        self.assertEqual(10, testitems['artifact-gp-value'])
+        self.assertEqual('gems', testitems['artifact-type'])
+        self.assertEqual('1d6', testitems['magic-roll'])
+        self.assertGreaterEqual(6, testitems['magic-qty'])
+        self.assertLessEqual(1, testitems['magic-qty'])
+        self.assertEqual('A', testitems['magic-table'])
+
+    def test_get_items_cr5(self):
+        """Test a CR5 treasure hoard with a roll of 84"""
+        testhoard = TreasureHoard(5, 84)
+        testitems = testhoard.get_items()
+        self.assertEqual('2d4', testitems['artifact-roll'])
+        self.assertGreaterEqual(8, testitems['artifact-qty'])
+        self.assertLessEqual(2, testitems['artifact-qty'])
+        self.assertEqual(25, testitems['artifact-gp-value'])
+        self.assertEqual('art objects', testitems['artifact-type'])
+        self.assertEqual('1d4', testitems['magic-roll'])
+        self.assertGreaterEqual(4, testitems['magic-qty'])
+        self.assertLessEqual(1, testitems['magic-qty'])
+        self.assertEqual('F', testitems['magic-table'])
+
 if __name__ == '__main__':
     unittest.main()

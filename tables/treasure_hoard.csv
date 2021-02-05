@@ -1,0 +1,105 @@
+cr-min,cr-max,d100-min,d100-max,artifact-roll,artifact-gp-value,artifact-type,magic-roll,magic-table,magic-roll2,magic-table2
+0,4,01,06,,,,
+0,4,07,16,2d6,10,gems,,
+0,4,17,26,2d4,25,art objects,,
+0,4,27,36,2d6,50,gems,,A
+0,4,37,44,2d6,10,gems,1d6,A
+0,4,45,52,2d4,25,art objects,1d6,A
+0,4,53,60,2d6,50,gems,1d6,A
+0,4,61,65,2d6,10,gems,1d4,B
+0,4,66,70,2d4,25,art objects,1d4,B
+0,4,71,75,2d6,50,gems,1d4,B
+0,4,76,78,2d6,10,gems,1d4,C
+0,4,79,80,2d4,25,art objects,1d4,C
+0,4,81,85,2d6,50,gems,1d4,C
+0,4,86,92,2d4,25,art objects,1d4,F
+0,4,93,97,2d6,50,gems,1d4,F
+0,4,98,99,2d4,25,art objects,1d1,G
+0,4,100,100,2d6,50,gems,1d1,G
+5,10,01,04,,,,
+5,10,05,10,2d4,25,art objects,,
+5,10,11,16,3d6,50,gems,,
+5,10,17,22,3d6,100,gems,,
+5,10,23,28,2d4,250,art objects,,
+5,10,29,32,2d4,25,art objects,1d6,A
+5,10,33,36,3d6,50,gems,1d6,A
+5,10,37,40,3d6,100,gems,1d6,A
+5,10,41,44,2d4,250,art objects,1d6,A
+5,10,45,49,2d4,25,art objects,1d4,B
+5,10,50,54,3d6,50,gems,1d4,B
+5,10,55,59,3d6,100,gems,1d4,B
+5,10,60,63,2d4,250,art objects,1d4,B
+5,10,64,66,2d4,25,art objects,1d4,C
+5,10,67,69,3d6,50,gems,1d4,C
+5,10,70,72,3d6,100,gems,1d4,C
+5,10,73,74,2d4,250,art objects,1d4,C
+5,10,75,76,2d4,25,art objects,1d1,D
+5,10,77,78,3d6,50,gems,1d1,D
+5,10,79,79,3d6,100,gems,1d1,D
+5,10,80,80,2d4,250,art objects,1d1,D
+5,10,81,84,2d4,25,art objects,1d4,F
+5,10,85,88,3d6,50,gems,1d4,F
+5,10,89,91,3d6,100,gems,1d4,F
+5,10,92,94,2d4,250,art objects,1d4,F
+5,10,95,96,3d6,100,gems,1d4,G
+5,10,97,98,2d4,250,art objects,1d4,G
+5,10,99,99,3d6,100,gems,1d1,H
+5,10,100,100,2d4,250,art objects,1d1,H
+11,16,01,03,,,,,
+11,16,04,06,2d4,250,art objects,,
+11,16,07,09,2d4,750,art objects,,
+11,16,10,12,3d6,500,gems,,
+11,16,13,15,3d6,1000,gems,,
+11,16,16,19,2d4,250,art objects,1d4,A,1d6,B
+11,16,20,23,2d4,750,art objects,1d4,A,1d6,B
+11,16,24,26,3d6,500,gems,1d4,A,1d6,B
+11,16,27,29,3d6,1000,gems,1d4,A,1d6,B
+11,16,30,35,2d4,250,art objects,1d6,C
+11,16,36,40,2d4,750,art objects,1d6,C
+11,16,41,45,3d6,500,gems,1d6,C
+11,16,46,50,3d6,1000,gems,1d6,C
+11,16,51,54,2d4,250,art objects,1d4,D
+11,16,55,58,2d4,750,art objects,1d4,D
+11,16,59,62,3d6,500,gems,1d4,D
+11,16,63,66,3d6,1000,gems,1d4,D
+11,16,67,68,2d4,250,art objects,1d1,E
+11,16,69,70,2d4,750,art objects,1d1,E
+11,16,71,72,3d6,500,gems,1d1,E
+11,16,73,74,3d6,1000,gems,1d1,E
+11,16,75,76,2d4,250,art objects,1d1,F,1d4,G
+11,16,77,78,2d4,750,art objects,1d1,F,1d4,G
+11,16,79,80,3d6,500,gems,1d1,F,1d4,G
+11,16,81,82,3d6,1000,gems,1d1,F,1d4,G
+11,16,83,85,2d4,250,art objects,1d4,H
+11,16,86,88,2d4,750,art objects,1d4,H
+11,16,89,90,3d6,500,gems,1d4,H
+11,16,91,92,3d6,1000,gems,1d4,H
+11,16,93,94,2d4,250,art objects,1d1,I
+11,16,95,96,2d4,750,art objects,1d1,I
+11,16,97,98,3d6,500,gems,1d1,I
+11,16,99,100,3d6,1000,gems,1d1,I
+17,99,01,02,,,,
+17,99,03,05,3d6,1000,gems,1d8,C
+17,99,06,08,1d10,2500,art objects,1d8,C
+17,99,09,11,1d4,7500,art objects,1d8,C
+17,99,12,14,1d8,5000,gems,1d8,C
+17,99,15,22,3d6,1000,gems,1d6,D
+17,99,23,30,1d10,2500,art objects,1d6,D
+17,99,31,38,1d4,7500,art objects,1d6,D
+17,99,39,46,1d8,5000,gems,1d6,D
+17,99,47,52,3d6,1000,gems,1d6,E
+17,99,53,58,1d10,2500,art objects,1d6,E
+17,99,59,63,1d4,7500,art objects,1d6,E
+17,99,64,68,1d8,5000,gems,1d6,E
+17,99,69,69,3d6,1000,gems,1d4,G
+17,99,70,70,1d10,2500,art objects,1d4,G
+17,99,71,71,1d4,7500,art objects,1d4,G
+17,99,72,72,1d8,5000,gems,1d4,G
+17,99,73,74,3d6,1000,gems,1d4,H
+17,99,75,76,1d10,2500,art objects,1d4,H
+17,99,77,78,1d4,7500,art objects,1d4,H
+17,99,79,80,1d8,5000,gems,1d4,H
+17,99,81,85,3d6,1000,gems,1d4,I
+17,99,86,90,1d10,2500,art objects,1d4,I
+17,99,91,95,1d4,7500,art objects,1d4,I
+17,99,96,100,1d8,5000,gems,1d4,I
