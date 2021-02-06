@@ -1,6 +1,7 @@
 from tools import calculate_roll
 from tools import load_table
 from tools import load_cr_based_table
+from tools import load_flat_table
 from random import randint
 
 
@@ -47,16 +48,47 @@ class TreasureHoard:
                 break
         if 'artifact-roll' in payout:
             payout['artifact-qty'] = calculate_roll(payout['artifact-roll'])
+        # roll and determine what magic items are in the stash
         if 'magic-roll' in payout:
             payout['magic-qty'] = calculate_roll(payout['magic-roll'])
+            if 'magic-table' in payout:
+                if payout['magic-table'] == 'A':
+                    magic_item_table = load_flat_table('../tables/magic_items.csv')
+                    payout['magic-items'] = []
+                    count = 1
+                    while count <= payout['magic-qty']:
+                        roll = randint(1, 100)
+                        item = []
+                        for row in magic_item_table:
+                            if int(row['d100-min']) <= roll <= int(row['d100-max']):
+                                payout['magic-items'].append(row)
+                                break
+                        count += 1
+
         if 'magic-roll2' in payout:
             payout['magic-qty2'] = calculate_roll(payout['magic-roll2'])
 
-
-
         return payout
 
+    def random_magic_item(self, table_key, roll=0):
+        result = {}
+        thisroll = 0
+        # load the reference table
+        magic_item_table = load_flat_table('../tables/magic_items.csv')
 
+        # If a roll is not specified, pick a number between 1 and 100
+        if roll == 0:
+            thisroll = randint(1, 100)
+        else:
+            thisroll = 0
+
+        # Iterate through the list of magic items until the roll is matched
+        for row in magic_item_table:
+            if int(row['d100-min']) <= roll <= int(row['d100-max']):
+                result['item'] = row['item']
+                result['source'] = row['source']
+                break
+        return result
 
 
 if __name__ == "__main__":
@@ -70,14 +102,17 @@ if __name__ == "__main__":
 
         item_stash = myloot.get_items()
         if 'artifact-qty' in item_stash:
-            print(f"   {item_stash['artifact-qty']} {item_stash['artifact-type']} worth {item_stash['artifact-gp-value']}"
-                  f" gold pieces each")
+            print(
+                f"   {item_stash['artifact-qty']} {item_stash['artifact-type']} worth {item_stash['artifact-gp-value']}"
+                f" gold pieces each")
         if 'magic-qty' in item_stash:
-            print(f"   {item_stash['magic-qty']} magical items from the wondrous Magical Item table {item_stash['magic-table']}")
+            print(
+                f"   {item_stash['magic-qty']} magical items from the wondrous Magical Item table {item_stash['magic-table']}")
         if 'magic-qty2' in item_stash:
-            print(f"   {item_stash['magic-qty2']} magical items from the wondrous Magical Item table {item_stash['magic-table2']}")
-
+            print(
+                f"   {item_stash['magic-qty2']} magical items from the wondrous Magical Item table {item_stash['magic-table2']}")
+        if 'magic-items' in item_stash:
+            for item in item_stash['magic-items']:
+                print(f"   {item['item']} (source: {item['source']})")
 
         print("Now off to the Friendly Ogre pub to celebrate!\n")
-
-

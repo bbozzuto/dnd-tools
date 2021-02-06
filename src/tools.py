@@ -62,6 +62,35 @@ def load_table(file):
             linecount += 1
     return table
 
+def load_flat_table(file):
+    """General utility which will read a structure table and return a list of dictionaries where each dictionary
+    represents a row from the table"""
+    with open(file, mode='r', encoding='utf-8-sig') as csvfile:
+        contents = csv.reader(csvfile)
+        linecount = 0
+        table = []  # will hold the values to be returned
+        headers = []  # headers from the first row of the table
+        for row in contents:
+            # if processing the first row, low those values to a special list of headers to be used to dictionary keys
+            if linecount == 0:
+                for item in row:
+                    headers.append(item)
+            else:
+                # all rows after the first should be processed the same
+                columncount = 0
+                new_row = {}
+                for item in row:
+                    if item != "":
+                        # if the value is numeric, cast it as an integer
+                        if str(item).isnumeric():
+                            new_row[headers[columncount]] = int(item)
+                        else:
+                            new_row[headers[columncount]] = item
+                    columncount += 1
+                table.append(new_row)
+            linecount += 1
+    return table
+
 
 def load_cr_based_table(file, cr=0):
     """General utility which will read a structure table and return a list of dictionaries where each dictionary

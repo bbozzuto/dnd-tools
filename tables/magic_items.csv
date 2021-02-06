@@ -1,0 +1,9 @@
+key,d100-min,d100-max,item,source
+A,01,50,Potion of healing,dmg
+A,51,60,Spell scroll (cantrip),dmg
+A,61,70,Potion of climbing,dmg
+A,71,90,Spell scroll (1st level),dmg
+A,91,94,Spell scroll (2nd level),dmg
+A,95,98,Potion of healing (greater),dmg
+A,99,99,Bag of holding,dmg
+A,100,100,Driftglobe,dmg

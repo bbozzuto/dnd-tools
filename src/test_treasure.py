@@ -87,5 +87,15 @@ class TreasureHoardTests(unittest.TestCase):
         self.assertLessEqual(1, testitems['magic-qty'])
         self.assertEqual('F', testitems['magic-table'])
 
+    def test_random_magic_item(self):
+        """This test will return an explicit magic item based on the table and roll"""
+        testhoard = TreasureHoard(1)
+        first_item = testhoard.random_magic_item('A', 35)
+        second_item = testhoard.random_magic_item('A', 80)
+        third_item = testhoard.random_magic_item('A', 99)
+        self.assertEqual('Potion of healing', first_item['item'])
+        self.assertEqual('Spell scroll (1st level)', second_item['item'])
+        self.assertEqual('Bag of holding', third_item['item'])
+
 if __name__ == '__main__':
     unittest.main()
