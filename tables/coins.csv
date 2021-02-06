@@ -1,5 +1,5 @@
-﻿table,copper,silver,electrum,gold,platinum
-a,6d6x100,3d6x100,,2d6x10,
-b,2d6x100,2d6x1000,,6d6x100,3d6x10
-c,,,,4d6x1000,5d6x100
-d,,,,12d6x1000,8d6x1000
+﻿cr-min,cr-max,d100-min,d100-max,copper,silver,electrum,gold,platinum
+0,4,1,100,6d6x100,3d6x100,,2d6x10,
+5,10,1,100,2d6x100,2d6x1000,,6d6x100,3d6x10
+11,16,1,100,,,,4d6x1000,5d6x100
+17,99,1,100,,,,12d6x1000,8d6x1000

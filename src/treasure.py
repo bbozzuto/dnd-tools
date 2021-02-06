@@ -1,5 +1,4 @@
 from tools import calculate_roll
-from tools import load_table
 from tools import load_cr_based_table
 from tools import load_flat_table
 from random import randint
@@ -19,23 +18,23 @@ class TreasureHoard:
             self.roll = randint(1, 100)
         else:
             self.roll = int(roll)
-        # load the coin payout table
-        self.cointablekey = \
-            [{'min': 0, 'max': 4, 'table': 'a'},
-             {'min': 5, 'max': 10, 'table': 'b'},
-             {'min': 11, 'max': 16, 'table': 'c'},
-             {'min': 17, 'max': 99, 'table': 'd'}]
+        # load the list of possible coins available
+        self.coin_type = ['copper', 'silver', 'electrum', 'gold', 'platinum']
 
     def get_coins(self):
         """returns a dictionary with the quantity of each type of coin in the treasure hoard"""
+
+        temp = load_cr_based_table('../tables/coins.csv', self.cr)
+        # presently there is no d100 rolling for coins, but the table is loaded as a list to be consistent
+        # with other tables
+        coins_to_roll = temp[0]
         payout = {}
-        cointable = load_table('../tables/coins.csv')
-        for set in self.cointablekey:
-            if set['min'] <= self.cr <= set['max']:
-                payout = cointable[set['table']]
-        for loot in payout:
-            self.coins[loot] = calculate_roll(payout[loot])
-        return self.coins
+
+        for coin in self.coin_type:
+            if coin in coins_to_roll:
+                payout[coin] = calculate_roll(coins_to_roll[coin])
+
+        return payout
 
     def get_items(self):
         """returns a dictionary including artifacts and magic items"""
@@ -52,21 +51,21 @@ class TreasureHoard:
         if 'magic-roll' in payout:
             payout['magic-qty'] = calculate_roll(payout['magic-roll'])
             if 'magic-table' in payout:
-                if payout['magic-table'] == 'A':
-                    magic_item_table = load_flat_table('../tables/magic_items.csv')
-                    payout['magic-items'] = []
-                    count = 1
-                    while count <= payout['magic-qty']:
-                        roll = randint(1, 100)
-                        item = []
-                        for row in magic_item_table:
-                            if int(row['d100-min']) <= roll <= int(row['d100-max']):
-                                payout['magic-items'].append(row)
-                                break
-                        count += 1
+                count = 1
+                payout['magic-items'] = []
+                while count <= payout['magic-qty']:
+                    item_to_add = self.random_magic_item(payout['magic-table'])
+                    payout['magic-items'].append(item_to_add)
+                    count += 1
 
         if 'magic-roll2' in payout:
             payout['magic-qty2'] = calculate_roll(payout['magic-roll2'])
+            if 'magic-table2' in payout:
+                count = 1
+                while count <= payout['magic-qty2']:
+                    item_to_add = self.random_magic_item(payout['magic-table2'])
+                    payout['magic-items'].append(item_to_add)
+                    count += 1
 
         return payout
 
@@ -74,17 +73,21 @@ class TreasureHoard:
         result = {}
         thisroll = 0
         # load the reference table
-        magic_item_table = load_flat_table('../tables/magic_items.csv')
+        temp_table = load_flat_table('../tables/magic_items.csv')
+        magic_item_table = []
+        for row in temp_table:
+            if row['key'] == table_key:
+                magic_item_table.append(row)
 
         # If a roll is not specified, pick a number between 1 and 100
         if roll == 0:
             thisroll = randint(1, 100)
         else:
-            thisroll = 0
+            thisroll = roll
 
         # Iterate through the list of magic items until the roll is matched
         for row in magic_item_table:
-            if int(row['d100-min']) <= roll <= int(row['d100-max']):
+            if int(row['d100-min']) <= thisroll <= int(row['d100-max']):
                 result['item'] = row['item']
                 result['source'] = row['source']
                 break
