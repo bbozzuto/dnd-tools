@@ -95,25 +95,27 @@ class TreasureHoard:
 
 
 if __name__ == "__main__":
-    while (cr := input("Combat Rating: ")) != "quit":
+    while (cr := input("Challenge Rating: ")) != "quit":
         myloot = TreasureHoard(cr)
 
         print(f"You rolled {myloot.roll}. Here is your challenge rating {cr} treasure hoard!")
         coin_stash = myloot.get_coins()
         for coin_type in coin_stash:
-            print(f"   {coin_stash[coin_type]} pieces of {coin_type}")
+            print(f"   {coin_stash[coin_type]:,} pieces of {coin_type}")
 
         item_stash = myloot.get_items()
         if 'artifact-qty' in item_stash:
             print(
-                f"   {item_stash['artifact-qty']} {item_stash['artifact-type']} worth {item_stash['artifact-gp-value']}"
+                f"   {item_stash['artifact-qty']} {item_stash['artifact-type']} worth {item_stash['artifact-gp-value']:,}"
                 f" gold pieces each")
         if 'magic-qty' in item_stash:
             print(
-                f"   {item_stash['magic-qty']} magical items from the wondrous Magical Item table {item_stash['magic-table']}")
+                f"   {item_stash['magic-qty']} magical {'items' if item_stash['magic-qty']>1 else 'item'} from the "
+                f"wondrous Magical Item table {item_stash['magic-table']}")
         if 'magic-qty2' in item_stash:
             print(
-                f"   {item_stash['magic-qty2']} magical items from the wondrous Magical Item table {item_stash['magic-table2']}")
+                f"   {item_stash['magic-qty2']} magical {'items' if item_stash['magic-qty2']>1 else 'item'} from the "
+                f"wondrous Magical Item table {item_stash['magic-table2']}")
         if 'magic-items' in item_stash:
             for item in item_stash['magic-items']:
                 print(f"   {item['item']} (source: {item['source']})")
