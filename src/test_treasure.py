@@ -90,9 +90,9 @@ class TreasureHoardTests(unittest.TestCase):
     def test_random_magic_item_table_A(self):
         """This test will return an explicit magic item based on the table and roll"""
         testhoard = TreasureHoard(1)
-        first_item = testhoard.random_magic_item('A', 35)
-        second_item = testhoard.random_magic_item('A', 80)
-        third_item = testhoard.random_magic_item('A', 99)
+        first_item = testhoard.get_random_magic_item('A', 35)
+        second_item = testhoard.get_random_magic_item('A', 80)
+        third_item = testhoard.get_random_magic_item('A', 99)
         self.assertEqual('Potion of healing', first_item['item'])
         self.assertEqual('Spell scroll (1st level)', second_item['item'])
         self.assertEqual('Bag of holding', third_item['item'])
@@ -100,9 +100,9 @@ class TreasureHoardTests(unittest.TestCase):
     def test_random_magic_item_multiple_tables(self):
         """This test will return an explicit magic item based on the table and roll"""
         testhoard = TreasureHoard(1)
-        first_item = testhoard.random_magic_item('B', 3)
-        second_item = testhoard.random_magic_item('D', 75)
-        third_item = testhoard.random_magic_item('I', 100)
+        first_item = testhoard.get_random_magic_item('B', 3)
+        second_item = testhoard.get_random_magic_item('D', 75)
+        third_item = testhoard.get_random_magic_item('I', 100)
         self.assertEqual('Potion of healing (greater)', first_item['item'])
         self.assertEqual('Potion of cloud giant strength', second_item['item'])
         self.assertEqual('Tome of the stilled tongue', third_item['item'])

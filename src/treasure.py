@@ -2,6 +2,7 @@ from tools import calculate_roll
 from tools import load_cr_based_table
 from tools import load_flat_table
 from random import randint
+from spell_list import SpellList
 
 
 class TreasureHoard:
@@ -18,6 +19,9 @@ class TreasureHoard:
             self.roll = randint(1, 100)
         else:
             self.roll = int(roll)
+
+        self.spells = SpellList()
+
         # load the list of possible coins available
         self.coin_type = ['copper', 'silver', 'electrum', 'gold', 'platinum']
 
@@ -54,7 +58,12 @@ class TreasureHoard:
                 count = 1
                 payout['magic-items'] = []
                 while count <= payout['magic-qty']:
-                    item_to_add = self.random_magic_item(payout['magic-table'])
+                    item_to_add = self.get_random_magic_item(payout['magic-table'])
+                    # check for special logic
+                    if 'logic' in item_to_add:
+                        if item_to_add['logic'] == 'pick_spell':
+                            spell_to_add = self.spells.get_random_spell_by_level(item_to_add['level'])
+                            item_to_add['item'] = f"Level {item_to_add['level']} spell scroll: {spell_to_add['name']}"
                     payout['magic-items'].append(item_to_add)
                     count += 1
 
@@ -63,13 +72,13 @@ class TreasureHoard:
             if 'magic-table2' in payout:
                 count = 1
                 while count <= payout['magic-qty2']:
-                    item_to_add = self.random_magic_item(payout['magic-table2'])
+                    item_to_add = self.get_random_magic_item(payout['magic-table2'])
                     payout['magic-items'].append(item_to_add)
                     count += 1
 
         return payout
 
-    def random_magic_item(self, table_key, roll=0):
+    def get_random_magic_item(self, table_key, roll=0):
         result = {}
         thisroll = 0
         # load the reference table
@@ -90,6 +99,10 @@ class TreasureHoard:
             if int(row['d100-min']) <= thisroll <= int(row['d100-max']):
                 result['item'] = row['item']
                 result['source'] = row['source']
+                if 'logic' in row:
+                    result['logic'] = row['logic']
+                if 'level' in row:
+                    result['level'] = row['level']
                 break
         return result
 
