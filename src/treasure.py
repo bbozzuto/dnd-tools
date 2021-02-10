@@ -3,6 +3,7 @@ from tools import load_cr_based_table
 from tools import load_flat_table
 from random import randint
 from spell_list import SpellList
+import random
 
 
 class TreasureHoard:
@@ -133,4 +134,11 @@ if __name__ == "__main__":
             for item in item_stash['magic-items']:
                 print(f"   {item['item']} (source: {item['source']})")
 
-        print("Now off to the Friendly Ogre pub to celebrate!\n")
+        characteristic_list = ['friendly ', 'cantankerous', 'drunken', 'boisterous', 'jolly', 'merry', 'joyous',
+                               'affectionate', 'genial', 'benevolent']
+        monster_list = ['ogre', 'dragon', 'hydra', 'vampire', 'giant', 'beholder', 'tarrasque', 'lich', 'aboleth',
+                        'gelatinous cube']
+        pub_item = random.choice(characteristic_list)
+
+        pub_item_2 = random.choice(monster_list)
+        print("Now off to the", pub_item, pub_item_2, "to celebrate")
