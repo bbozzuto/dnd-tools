@@ -1,6 +1,7 @@
 from tools import calculate_roll
 from tools import load_cr_based_table
 from tools import load_flat_table
+from tools import filter_table_by_key
 from random import randint
 from spell_list import SpellList
 import random
@@ -84,14 +85,20 @@ class TreasureHoard:
         thisroll = 0
         # load the reference table
         temp_table = load_flat_table('../tables/magic_items.csv')
-        magic_item_table = []
+        """magic_item_table = []
         for row in temp_table:
             if row['key'] == table_key:
-                magic_item_table.append(row)
+                magic_item_table.append(row)"""
+        magic_item_table = filter_table_by_key(temp_table, table_key)
+
 
         # If a roll is not specified, pick a number between 1 and 100
         if roll == 0:
-            thisroll = randint(1, 100)
+            # determine the maximum value for the roll, as it may be more than 100 with new content
+            #thisroll = randint(1, 100)
+            seq = [x['d100-max'] for x in magic_item_table]
+            maxroll = max(seq)
+            thisroll = randint(1, maxroll)
         else:
             thisroll = roll
 

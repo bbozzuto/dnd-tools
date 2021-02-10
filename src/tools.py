@@ -65,6 +65,19 @@ def load_flat_table(file):
             linecount += 1
     return table
 
+def filter_table_by_key(table, key='A'):
+    """General utility that takes a list of dictionary entries, likely processed from a CSC, and limits the list
+    by the specified key for each row. This function assumes that each dictionary entry has a value "key" with
+    a letter such as A, B, C, etc. This is generally used for processing treasure tables """
+    filtered_table = []
+    for row in table:
+        if 'key' in row:
+            if row['key'] == key:
+                filtered_table.append(row)
+
+    return filtered_table
+
+
 def filter_table_by_cr(table, cr=0):
     """General utility that takes a list of dictionary entries, likely processed from a CSV, and limits the list
     by the specified challenge rating (CR) for each row. This function assumes that each dictionary has the following
