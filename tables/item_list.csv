@@ -1,0 +1,613 @@
+Rarity,Class,Name,Type,Attune,Source
+Common,Minor,Armor of gleaming,Armor,No,
+Common,Minor,Bead of nourishment,Wondrous item,No,
+Common,Minor,Bead of refreshment,Wondrous item,No,
+Common,Minor,Boots of false tracks,Wondrous item,No,
+Common,Minor,Candle of the deep,Wondrous item,No,
+Common,Minor,Cast-off armor,Armor,No,
+Common,Minor,Charlatan’s die,Wondrous item,Yes,
+Common,Minor,Cloak of billowing,Wondrous item,No,
+Common,Minor,Cloak of many fashions,Wondrous item,No,
+Common,Minor,Clockwork amulet,Wondrous item,No,
+Common,Minor,Clothes of mending,Wondrous item,No,
+Common,Minor,Dark shard amulet,Wondrous item,Yes (warlock),
+Common,Minor,Dread helm,Wondrous item,No,
+Common,Minor,Ear horn of hearing,Wondrous item,No,
+Common,Minor,Enduring spellbook,Wondrous item,No,
+Common,Minor,Ersatz eye,Wondrous item,Yes,
+Common,Minor,Hat of vermin,Wondrous item,No,
+Common,Minor,Hat of wizardry,Wondrous item,Yes (wizard),
+Common,Minor,Heward’s handy spice pouch,Wondrous item,No,
+Common,Minor,Horn of silent alarm,Wondrous item,No,
+Common,Minor,Instrument of illusions,Wondrous item,Yes,
+Common,Minor,Instrument of scribing,Wondrous item,Yes,
+Common,Minor,Lock of trickery,Wondrous item,No,
+Common,Minor,Moon-touched sword,Weapon,No,
+Common,Minor,Mystery key,Wondrous item,No,
+Common,Minor,Orb of direction,Wondrous item,No,
+Common,Minor,Orb of time,Wondrous item,No,
+Common,Minor,Perfume of bewitching,Wondrous item,No,
+Common,Minor,Pipe of smoke monsters,Wondrous item,No,
+Common,Minor,Pole of angling,Wondrous item,No,
+Common,Minor,Pole of collapsing,Wondrous item,No,
+Common,Minor,Pot of awakening,Wondrous item,No,
+Common,Minor,Potion of climbing,Potion,No,
+Common,Minor,Potion of healing,Potion,No,
+Common,Minor,Rope of mending,Wondrous item,No,
+Common,Minor,Ruby of the war mage,Wondrous item,Yes (spellcaster),
+Common,Minor,Shield of expression,Armor,No,
+Common,Minor,Smoldering armor,Armor,No,
+Common,Minor,Spell scroll (cantrip),Scroll,No,
+Common,Minor,Spell scroll (1st level),Scroll,No,
+Common,Minor,Staff of adornment,Staff,No,
+Common,Minor,Staff of birdcalls,Staff,No,
+Common,Minor,Staff of flowers,Staff,No,
+Common,Minor,Talking doll,Wondrous item,Yes,
+Common,Minor,Tankard of sobriety,Wondrous item,No,
+Common,Minor,Unbreakable arrow,Weapon,No,
+Common,Minor,Veteran’s cane,Wondrous item,No,
+Common,Minor,Walloping ammunition,Weapon,No,
+Common,Minor,Wand of conducting,Wand,No,
+Common,Minor,Wand of pyrotechnics,Wand,No,
+Common,Minor,Wand of scowls,Wand,No,
+Common,Minor,Wand of smiles,Wand,No,
+Uncommon,Minor,Alchemy jug,Wondrous item,No,
+Uncommon,Minor,"Ammunition, +1",Weapon,No,
+Uncommon,Minor,Bag of holding,Wondrous item,No,
+Uncommon,Minor,Cap of water breathing,Wondrous item,No,
+Uncommon,Minor,Cloak of the manta ray,Wondrous item,No,
+Uncommon,Minor,Decanter of endless water,Wondrous item,No,
+Uncommon,Minor,Driftglobe,Wondrous item,No,
+Uncommon,Minor,Dust of disappearance,Wondrous item,No,
+Uncommon,Minor,Dust of dryness,Wondrous item,No,
+Uncommon,Minor,Dust of sneezing and choking,Wondrous item,No,
+Uncommon,Minor,Elemental gem,Wondrous item,No,
+Uncommon,Minor,Eyes of minute seeing,Wondrous item,No,
+Uncommon,Minor,Goggles of night,Wondrous item,No,
+Uncommon,Minor,Helm of comprehending languages,Wondrous item,No,
+Uncommon,Minor,Immovable rod,Rod,No,
+Uncommon,Minor,Keoghtom’s ointment,Wondrous item,No,
+Uncommon,Minor,Lantern of revealing,Wondrous item,No,
+Uncommon,Minor,Mariner’s armor,Armor,No,
+Uncommon,Minor,Mithral armor,Armor,No,
+Uncommon,Minor,Oil of slipperiness,Potion,No,
+Uncommon,Minor,Periapt of health,Wondrous item,No,
+Uncommon,Minor,Philter of love,Potion,No,
+Uncommon,Minor,Potion of animal friendship,Potion,No,
+Uncommon,Minor,Potion of fire breath,Potion,No,
+Uncommon,Minor,"Potion of healing, greater",Potion,No,
+Uncommon,Minor,Potion of growth,Potion,No,
+Uncommon,Minor,Potion of hill giant strength,Potion,No,
+Uncommon,Minor,Potion of poison,Potion,No,
+Uncommon,Minor,Potion of resistance,Potion,No,
+Uncommon,Minor,Potion of water breathing,Potion,No,
+Uncommon,Minor,Ring of swimming,Ring,No,
+Uncommon,Minor,Robe of useful items,Wondrous item,No,
+Uncommon,Minor,Rope of climbing,Wondrous item,No,
+Uncommon,Minor,Saddle of the cavalier,Wondrous item,No,
+Uncommon,Minor,Sending stones,Wondrous item,No,
+Uncommon,Minor,Spell scroll (2nd level),Scroll,No,
+Uncommon,Minor,Spell scroll (3rd level),Scroll,No,
+Uncommon,Minor,Wand of magic detection,Wand,No,
+Uncommon,Minor,Wand of secrets,Wand,No,
+Rare,Minor,"Ammunition, +2",Weapon,No,
+Rare,Minor,Bag of beans,Wondrous item,No,
+Rare,Minor,Bead of force,Wondrous item,No,
+Rare,Minor,Chime of opening,Wondrous item,No,
+Rare,Minor,Elixir of health,Potion,No,
+Rare,Minor,Folding boat,Wondrous item,No,
+Rare,Minor,Heward’s handy haversack,Wondrous item,No,
+Rare,Minor,Horseshoes of speed,Wondrous item,No,
+Rare,Minor,Necklace of fireballs,Wondrous item,No,
+Rare,Minor,Oil of etherealness,Potion,No,
+Rare,Minor,Portable hole,Wondrous item,No,
+Rare,Minor,Potion of clairvoyance,Potion,No,
+Rare,Minor,Potion of diminution,Potion,No,
+Rare,Minor,Potion of fire giant strength,Potion,No,
+Rare,Minor,Potion of frost giant strength,Potion,No,
+Rare,Minor,Potion of gaseous form,Potion,No,
+Rare,Minor,Potion of heroism,Potion,No,
+Rare,Minor,Potion of invulnerability,Potion,No,
+Rare,Minor,Potion of mind reading,Potion,No,
+Rare,Minor,Potion of stone giant strength,Potion,No,
+Rare,Minor,"Potion of healing, superior",Potion,No,
+Rare,Minor,Quaal’s feather token,Wondrous item,No,
+Rare,Minor,Scroll of protection,Scroll,No,
+Rare,Minor,Spell scroll (4th level),Scroll,No,
+Rare,Minor,Spell scroll (5th level),Scroll,No,
+Very Rare,Minor,"Ammunition, +3",Weapon,No,
+Very Rare,Minor,Arrow of slaying,Weapon,No,
+Very Rare,Minor,Bag of devouring,Wondrous item,No,
+Very Rare,Minor,Horseshoes of a zephyr,Wondrous item,No,
+Very Rare,Minor,Nolzur’s marvelous pigments,Wondrous item,No,
+Very Rare,Minor,Oil of sharpness,Potion,No,
+Very Rare,Minor,Potion of cloud giant strength,Potion,No,
+Very Rare,Minor,Potion of flying,Potion,No,
+Very Rare,Minor,Potion of invisibility,Potion,No,
+Very Rare,Minor,Potion of longevity,Potion,No,
+Very Rare,Minor,Potion of speed,Potion,No,
+Very Rare,Minor,"Potion of healing, supreme",Potion,No,
+Very Rare,Minor,Potion of vitality,Potion,No,
+Very Rare,Minor,Spell scroll (6th level),Scroll,No,
+Very Rare,Minor,Spell scroll (7th level),Scroll,No,
+Very Rare,Minor,Spell scroll (8th level),Scroll,No,
+Legendary,Minor,Potion of storm giant strength,Potion,No,
+Legendary,Minor,Sovereign glue,Wondrous item,No,
+Legendary,Minor,Spell scroll (9th level),Scroll,No,
+Legendary,Minor,Universal solvent,Wondrous item,No,
+Uncommon,Major,Adamantine armor,Armor,No,
+Uncommon,Major,Amulet of proof against detection and location,Wondrous item,Yes,
+Uncommon,Major,Bag of tricks,Wondrous item,No,
+Uncommon,Major,Boots of elvenkind,Wondrous item,No,
+Uncommon,Major,Boots of striding and springing,Wondrous item,Yes,
+Uncommon,Major,Boots of the winterlands,Wondrous item,Yes,
+Uncommon,Major,Bracers of archery,Wondrous item,Yes,
+Uncommon,Major,Brooch of shielding,Wondrous item,Yes,
+Uncommon,Major,Broom of flying,Wondrous item,No,
+Uncommon,Major,Circlet of blasting,Wondrous item,No,
+Uncommon,Major,Cloak of elvenkind,Wondrous item,Yes,
+Uncommon,Major,Cloak of protection,Wondrous item,Yes,
+Uncommon,Major,Deck of illusions,Wondrous item,No,
+Uncommon,Major,Eversmoking bottle,Wondrous item,No,
+Uncommon,Major,Eyes of charming,Wondrous item,Yes,
+Uncommon,Major,Eyes of the eagle,Wondrous item,Yes,
+Uncommon,Major,Figurine of wondrous power (silver raven),Wondrous item,No,
+Uncommon,Major,Gauntlets of ogre power,Wondrous item,Yes,
+Uncommon,Major,Gem of brightness,Wondrous item,No,
+Uncommon,Major,Gloves of missile snaring,Wondrous item,Yes,
+Uncommon,Major,Gloves of swimming and climbing,Wondrous item,Yes,
+Uncommon,Major,Gloves of thievery,Wondrous item,No,
+Uncommon,Major,Hat of disguise,Wondrous item,Yes,
+Uncommon,Major,Headband of intellect,Wondrous item,Yes,
+Uncommon,Major,Helm of telepathy,Wondrous item,Yes,
+Uncommon,Major,Instrument of the bards (Doss lute),Wondrous item,Yes (bard),
+Uncommon,Major,Instrument of the bards (Fochlucan bandore),Wondrous item,Yes (bard),
+Uncommon,Major,Instrument of the bards (Mac-Fuirmidh cittern),Wondrous item,Yes (bard),
+Uncommon,Major,Javelin of lightning,Weapon,No,
+Uncommon,Major,Medallion of thoughts,Wondrous item,Yes,
+Uncommon,Major,Necklace of adaptation,Wondrous item,Yes,
+Uncommon,Major,Pearl of power,Wondrous item,Yes (spellcaster),
+Uncommon,Major,Periapt of wound closure,Wondrous item,Yes,
+Uncommon,Major,Pipes of haunting,Wondrous item,No,
+Uncommon,Major,Pipes of the sewers,Wondrous item,Yes,
+Uncommon,Major,Quiver of Ehlonna,Wondrous item,No,
+Uncommon,Major,Ring of jumping,Ring,Yes,
+Uncommon,Major,Ring of mind shielding,Ring,Yes,
+Uncommon,Major,Ring of warmth,Ring,Yes,
+Uncommon,Major,Ring of water walking,Ring,No,
+Uncommon,Major,"Rod of the pact keeper, +1",Rod,Yes (warlock),
+Uncommon,Major,Sentinel shield,Armor,No,
+Uncommon,Major,"Shield, +1",Armor,No,
+Uncommon,Major,Slippers of spider climbing,Wondrous item,Yes,
+Uncommon,Major,Staff of the adder,Staff,"Yes (cleric, druid, or warlock)",
+Uncommon,Major,Staff of the python,Staff,"Yes (cleric, druid, or warlock)",
+Uncommon,Major,Stone of good luck (luckstone),Wondrous item,Yes,
+Uncommon,Major,Sword of vengeance,Weapon,Yes,
+Uncommon,Major,Trident of fish command,Weapon,Yes,
+Uncommon,Major,Wand of magic missiles,Wand,No,
+Uncommon,Major,"Wand of the war mage, +1",Wand,Yes (spellcaster),
+Uncommon,Major,Wand of web,Wand,Yes (spellcaster),
+Uncommon,Major,Weapon of warning,Weapon,Yes,
+Uncommon,Major,"Weapon, +1",Weapon,No,
+Uncommon,Major,Wind fan,Wondrous item,No,
+Uncommon,Major,Winged boots,Wondrous item,Yes,
+Rare,Major,Amulet of health,Wondrous item,Yes,
+Rare,Major,Armor of resistance,Armor,Yes,
+Rare,Major,Armor of vulnerability,Armor,Yes,
+Rare,Major,"Armor, +1",Armor,No,
+Rare,Major,Arrow-catching shield,Armor,Yes,
+Rare,Major,Belt of dwarvenkind,Wondrous item,Yes,
+Rare,Major,Belt of hill giant strength,Wondrous item,Yes,
+Rare,Major,Berserker axe,Weapon,Yes,
+Rare,Major,Boots of levitation,Wondrous item,Yes,
+Rare,Major,Boots of speed,Wondrous item,Yes,
+Rare,Major,Bowl of commanding water elementals,Wondrous item,No,
+Rare,Major,Bracers of defense,Wondrous item,Yes,
+Rare,Major,Brazier of commanding fire elementals,Wondrous item,No,
+Rare,Major,Cape of the mountebank,Wondrous item,No,
+Rare,Major,Censer of controlling air elementals,Wondrous item,No,
+Rare,Major,Cloak of displacement,Wondrous item,Yes,
+Rare,Major,Cloak of the bat,Wondrous item,Yes,
+Rare,Major,Cube of force,Wondrous item,Yes,
+Rare,Major,Daern’s instant fortress,Wondrous item,No,
+Rare,Major,Dagger of venom,Weapon,No,
+Rare,Major,Dimensional shackles,Wondrous item,No,
+Rare,Major,Dragon slayer,Weapon,No,
+Rare,Major,Elven chain,Armor,No,
+Rare,Major,Figurine of wondrous power (bronze griffon),Wondrous item,No,
+Rare,Major,Figurine of wondrous power (ebony fly),Wondrous item,No,
+Rare,Major,Figurine of wondrous power (golden lions),Wondrous item,No,
+Rare,Major,Figurine of wondrous power (ivory goats),Wondrous item,No,
+Rare,Major,Figurine of wondrous power (marble elephant),Wondrous item,No,
+Rare,Major,Figurine of wondrous power (onyx dog),Wondrous item,No,
+Rare,Major,Figurine of wondrous power (serpentine owl),Wondrous item,No,
+Rare,Major,Flame tongue,Weapon,Yes,
+Rare,Major,Gem of seeing,Wondrous item,Yes,
+Rare,Major,Giant slayer,Weapon,No,
+Rare,Major,Glamoured studded leather,Armor,No,
+Rare,Major,Helm of teleportation,Wondrous item,Yes,
+Rare,Major,Horn of blasting,Wondrous item,No,
+Rare,Major,Horn of Valhalla (silver or brass),Wondrous item,No,
+Rare,Major,Instrument of the bards (Canaith mandolin),Wondrous item,Yes (bard),
+Rare,Major,Instrument of the bards (Cli lyre),Wondrous item,Yes (bard),
+Rare,Major,Ioun stone (awareness),Wondrous item,Yes,
+Rare,Major,Ioun stone (protection),Wondrous item,Yes,
+Rare,Major,Ioun stone (reserve),Wondrous item,Yes,
+Rare,Major,Ioun stone (sustenance),Wondrous item,Yes,
+Rare,Major,Iron bands of Bilarro,Wondrous item,No,
+Rare,Major,Mace of disruption,Weapon,Yes,
+Rare,Major,Mace of smiting,Weapon,No,
+Rare,Major,Mace of terror,Weapon,Yes,
+Rare,Major,Mantle of spell resistance,Wondrous item,Yes,
+Rare,Major,Necklace of prayer beads,Wondrous item,"Yes (cleric, druid, or paladin)",
+Rare,Major,Periapt of proof against poison,Wondrous item,No,
+Rare,Major,Ring of animal influence,Ring,No,
+Rare,Major,Ring of evasion,Ring,Yes,
+Rare,Major,Ring of feather falling,Ring,Yes,
+Rare,Major,Ring of free action,Ring,Yes,
+Rare,Major,Ring of protection,Ring,Yes,
+Rare,Major,Ring of resistance,Ring,Yes,
+Rare,Major,Ring of spell storing,Ring,Yes,
+Rare,Major,Ring of the ram,Ring,Yes,
+Rare,Major,Ring of X-ray vision,Ring,Yes,
+Rare,Major,Robe of eyes,Wondrous item,Yes,
+Rare,Major,Rod of rulership,Rod,Yes,
+Rare,Major,"Rod of the pact keeper, +2",Rod,Yes (warlock),
+Rare,Major,Rope of entanglement,Wondrous item,No,
+Rare,Major,Shield of missile attraction,Armor,Yes,
+Rare,Major,"Shield, +2",Armor,No,
+Rare,Major,Staff of charming,Staff,"Yes (bard, cleric, druid, sorcerer, warlock, or wizard)",
+Rare,Major,Staff of healing,Staff,"Yes (bard, cleric, or druid)",
+Rare,Major,Staff of swarming insects,Staff,"Yes (bard, cleric, druid, sorcerer, warlock, or wizard)",
+Rare,Major,Staff of the woodlands,Staff,Yes (druid),
+Rare,Major,Staff of withering,Staff,"Yes (cleric, druid, or warlock)",
+Rare,Major,Stone of controlling earth elementals,Wondrous item,No,
+Rare,Major,Sun blade,Weapon,Yes,
+Rare,Major,Sword of life stealing,Weapon,Yes,
+Rare,Major,Sword of wounding,Weapon,Yes,
+Rare,Major,Tentacle rod,Rod,Yes,
+Rare,Major,Vicious weapon,Weapon,No,
+Rare,Major,Wand of binding,Wand,Yes (spellcaster),
+Rare,Major,Wand of enemy detection,Wand,Yes,
+Rare,Major,Wand of fear,Wand,Yes,
+Rare,Major,Wand of fireballs,Wand,Yes (spellcaster),
+Rare,Major,Wand of lightning bolts,Wand,Yes (spellcaster),
+Rare,Major,Wand of paralysis,Wand,Yes (spellcaster),
+Rare,Major,"Wand of the war mage, +2",Wand,Yes (spellcaster),
+Rare,Major,Wand of wonder,Wand,Yes (spellcaster),
+Rare,Major,"Weapon, +2",Weapon,No,
+Rare,Major,Wings of flying,Wondrous item,Yes,
+Very Rare,Major,Amulet of the planes,Wondrous item,Yes,
+Very Rare,Major,Animated shield,Armor,Yes,
+Very Rare,Major,"Armor, +2",Armor,No,
+Very Rare,Major,Belt of fire giant strength,Wondrous item,Yes,
+Very Rare,Major,Belt of giant strength (frost/stone),Wondrous item,Yes,
+Very Rare,Major,Candle of invocation,Wondrous item,Yes,
+Very Rare,Major,Carpet of flying,Wondrous item,No,
+Very Rare,Major,Cloak of arachnida,Wondrous item,Yes,
+Very Rare,Major,Crystal ball (very rare),Wondrous item,Yes,
+Very Rare,Major,Dancing sword,Weapon,Yes,
+Very Rare,Major,Demon armor,Armor,Yes,
+Very Rare,Major,Dragon scale mail,Armor,Yes,
+Very Rare,Major,Dwarven plate,Armor,No,
+Very Rare,Major,Dwarven thrower,Weapon,Yes (dwarf),
+Very Rare,Major,Efreeti bottle,Wondrous item,No,
+Very Rare,Major,Figurine of wondrous power (obsidian steed),Wondrous item,No,
+Very Rare,Major,Frost brand,Weapon,Yes,
+Very Rare,Major,Helm of brilliance,Wondrous item,Yes,
+Very Rare,Major,Horn of Valhalla (bronze),Wondrous item,No,
+Very Rare,Major,Instrument of the bards (Anstruth harp),Wondrous item,Yes (bard),
+Very Rare,Major,Ioun stone (absorption),Wondrous item,Yes,
+Very Rare,Major,Ioun stone (agility),Wondrous item,Yes,
+Very Rare,Major,Ioun stone (fortitude),Wondrous item,Yes,
+Very Rare,Major,Ioun stone (insight),Wondrous item,Yes,
+Very Rare,Major,Ioun stone (intellect),Wondrous item,Yes,
+Very Rare,Major,Ioun stone (leadership),Wondrous item,Yes,
+Very Rare,Major,Ioun stone (strength),Wondrous item,Yes,
+Very Rare,Major,Manual of bodily health,Wondrous item,No,
+Very Rare,Major,Manual of gainful exercise,Wondrous item,No,
+Very Rare,Major,Manual of golems,Wondrous item,No,
+Very Rare,Major,Manual of quickness of action,Wondrous item,No,
+Very Rare,Major,Mirror of life trapping,Wondrous item,No,
+Very Rare,Major,Nine lives stealer,Weapon,Yes,
+Very Rare,Major,Oathbow,Weapon,Yes,
+Very Rare,Major,Ring of regeneration,Ring,Yes,
+Very Rare,Major,Ring of shooting stars,Ring,Yes (outdoors at night),
+Very Rare,Major,Ring of telekinesis,Ring,Yes,
+Very Rare,Major,Robe of scintillating colors,Wondrous item,Yes,
+Very Rare,Major,Robe of stars,Wondrous item,Yes,
+Very Rare,Major,Rod of absorption,Rod,Yes,
+Very Rare,Major,Rod of alertness,Rod,Yes,
+Very Rare,Major,Rod of security,Rod,No,
+Very Rare,Major,"Rod of the pact keeper, +3",Rod,Yes (warlock),
+Very Rare,Major,Scimitar of speed,Weapon,Yes,
+Very Rare,Major,"Shield, +3",Armor,No,
+Very Rare,Major,Spellguard shield,Armor,Yes,
+Very Rare,Major,Staff of fire,Staff,"Yes (druid, sorcerer, warlock, or wizard)",
+Very Rare,Major,Staff of frost,Staff,"Yes (druid, sorcerer, warlock, or wizard)",
+Very Rare,Major,Staff of power,Staff,"Yes (sorcerer, warlock, or wizard)",
+Very Rare,Major,Staff of striking,Staff,Yes,
+Very Rare,Major,Staff of thunder and lightning,Staff,Yes,
+Very Rare,Major,Sword of sharpness,Weapon,Yes,
+Very Rare,Major,Tome of clear thought,Wondrous item,No,
+Very Rare,Major,Tome of leadership and influence,Wondrous item,No,
+Very Rare,Major,Tome of understanding,Wondrous item,No,
+Very Rare,Major,Wand of polymorph,Wand,Yes (spellcaster),
+Very Rare,Major,"Wand of the war mage, +3",Wand,Yes (spellcaster),
+Very Rare,Major,"Weapon, +3",Weapon,No,
+Legendary,Major,Apparatus of Kwalish,Wondrous item,No,
+Legendary,Major,Armor of invulnerability,Armor,Yes,
+Legendary,Major,"Armor, +3",Armor,No,
+Legendary,Major,Belt of cloud giant strength,Wondrous item,Yes,
+Legendary,Major,Belt of storm giant strength,Wondrous item,Yes,
+Legendary,Major,Cloak of invisibility,Wondrous item,Yes,
+Legendary,Major,Crystal ball (legendary),Wondrous item,Yes,
+Legendary,Major,Cubic gate,Wondrous item,No,
+Legendary,Major,Deck of many things,Wondrous item,No,
+Legendary,Major,Defender,Weapon,Yes,
+Legendary,Major,Efreeti chain,Armor,Yes,
+Legendary,Major,Hammer of thunderbolts,Weapon,Yes (Giant’s Bane),
+Legendary,Major,Holy avenger,Weapon,Yes (paladin),
+Legendary,Major,Horn of Valhalla (iron),Wondrous item,No,
+Legendary,Major,Instrument of the bards (Ollamh harp),Wondrous item,Yes (bard),
+Legendary,Major,Ioun stone (greater absorption),Wondrous item,Yes,
+Legendary,Major,Ioun stone (mastery),Wondrous item,Yes,
+Legendary,Major,Ioun stone (regeneration),Wondrous item,Yes,
+Legendary,Major,Iron flask,Wondrous item,No,
+Legendary,Major,Luck blade,Weapon,Yes,
+Legendary,Major,Plate armor of etherealness,Armor,Yes,
+Legendary,Major,Ring of air elemental command,Ring,Yes,
+Legendary,Major,Ring of djinni summoning,Ring,Yes,
+Legendary,Major,Ring of earth elemental command,Ring,Yes,
+Legendary,Major,Ring of fire elemental command,Ring,Yes,
+Legendary,Major,Ring of invisibility,Ring,Yes,
+Legendary,Major,Ring of spell turning,Ring,Yes,
+Legendary,Major,Ring of three wishes,Ring,No,
+Legendary,Major,Ring of water elemental command,Ring,Yes,
+Legendary,Major,Robe of the archmagi,Wondrous item,"Yes (sorcerer, warlock, or wizard)",
+Legendary,Major,Rod of lordly might,Rod,Yes,
+Legendary,Major,Rod of resurrection,Rod,"Yes (cleric, druid, or paladin)",
+Legendary,Major,Scarab of protection,Wondrous item,Yes,
+Legendary,Major,Sphere of annihilation,Wondrous item,No,
+Legendary,Major,Staff of the magi,Staff,"Yes (sorcerer, warlock, or wizard)",
+Legendary,Major,Sword of answering,Weapon,Yes (creature of same alignment as sword),
+Legendary,Major,Talisman of pure good,Wondrous item,Yes (creature of good alignment),
+Legendary,Major,Talisman of the sphere,Wondrous item,Yes,
+Legendary,Major,Talisman of ultimate evil,Wondrous item,Yes (creature of evil alignment),
+Legendary,Major,Tome of the stilled tongue,Wondrous item,Yes (wizard),
+Legendary,Major,Vorpal sword,Weapon,Yes,
+Legendary,Major,Well of many worlds,Wondrous item,No,
+Common,Minor,Illuminator’s Tattoo,Wondrous item,Yes,TCA
+Common,Minor,Masquerade Tattoo,Wondrous item,Yes,TCA
+Common,Major,Prosthetic Limb,Wondrous item,No,TCA
+Common,Minor,Spellwrought Tattoo (Cantrip),Wondrous item,No,TCA
+Common,Minor,Spellwrought Tattoo (1st Level),Wondrous item,No,TCA
+Uncommon,Minor,Spellwrought Tattoo (2nd Level),Wondrous item,No,TCA
+Uncommon,Minor,Spellwrought Tattoo (3rd Level),Wondrous item,No,TCA
+Rare,Minor,Spellwrought Tattoo (4th Level),Wondrous item,No,TCA
+Rare,Minor,Spellwrought Tattoo (5th Level),Wondrous item,No,TCA
+Uncommon,Major,All-Purpose Tool +1,Wondrous item,Yes,TCA
+Rare,Major,All-Purpose Tool +2,Wondrous item,Yes,TCA
+Very Rare,Major,All-Purpose Tool +3,Wondrous item,Yes,TCA
+Uncommon,Major,Amulet of the Devout +1,Wondrous item,Yes,TCA
+Rare,Major,Amulet of the Devout +2,Wondrous item,Yes,TCA
+Very Rare,Major,Amulet of the Devout +3,Wondrous item,Yes,TCA
+Uncommon,Major,Arcane Grimoire +1,Wondrous item,Yes,TCA
+Rare,Major,Arcane Grimoire +2,Wondrous item,Yes,TCA
+Very Rare,Major,Arcane Grimoire +3,Wondrous item,Yes,TCA
+Uncommon,Major,Barrier Tattoo (AC12),Wondrous item,Yes,TCA
+Rare,Major,Barrier Tattoo (AC15),Wondrous item,Yes,TCA
+Very Rare,Major,Barrier Tattoo (AC18),Wondrous item,Yes,TCA
+Uncommon,Major,Bloodwell Vial +1,Wondrous item,Yes,TCA
+Rare,Major,Bloodwell Vial +2,Wondrous item,Yes,TCA
+Very Rare,Major,Bloodwell Vial +3,Wondrous item,Yes,TCA
+Uncommon,Major,Coiling Grasp Tattoo,Wondrous item,Yes,TCA
+Uncommon,Major,Eldritch Claw Tattoo,Wondrous item,Yes,TCA
+Uncommon,Major,Feywild Shard,Wondrous item,Yes,TCA
+Uncommon,Major,Guardian Emblem,Wondrous item,Yes,TCA
+Uncommon,Major,Moon Sickle +1,Weapon (Sickle),Yes,TCA
+Rare,Major,Moon Sickle +2,Weapon (Sickle),Yes,TCA
+Very Rare,Major,Moon Sickle +3,Weapon (Sickle),Yes,TCA
+Uncommon,Major,Nature’s Mantle,Wondrous item,Yes,TCA
+Uncommon,Major,Rhythm-Maker’s Drum,Wondrous item,Yes,TCA
+Rare,Major,Alchemical Compendium,Wondrous item,Yes,TCA
+Rare,Major,Astral Shard,Wondrous item,Yes,TCA
+Rare,Major,Astromancy Archive,Wondrous item,Yes,TCA
+Rare,Major,Atlas of Endless Horizons,Wondrous item,Yes,TCA
+Rare,Major,Bell Branch,Wondrous item,Yes,TCA
+Rare,Major,Devotee’s Censer,Wondrous item,Yes,TCA
+Rare,Major,Duplicitous Manuscript,Wondrous item,Yes,TCA
+Rare,Major,Elemental Essence Shard,Wondrous item,Yes,TCA
+Rare,Major,Far Realm Shard,Wondrous item,Yes,TCA
+Rare,Major,Fulminating Treatise,Wondrous item,Yes,TCA
+Rare,Major,Heart Weaver’s Primer,Wondrous item,Yes,TCA
+Rare,Major,Libram of Souls and Flesh,Wondrous item,Yes,TCA
+Rare,Major,Lyre of Building,Wondrous item,Yes,TCA
+Rare,Major,Outer Essence Shard,Wondrous item,Yes,TCA
+Rare,Major,Planecaller’s Codex,Wondrous item,Yes,TCA
+Rare,Major,Protective Verses,Wondrous item,Yes,TCA
+Rare,Major,Reveler’s Concertina,Wondrous item,Yes,TCA
+Rare,Major,Shadowfell Brand Tattoo,Wondrous item,Yes,TCA
+Rare,Major,Shadowfell Shard,Wondrous item,Yes,TCA
+Very Rare,Major,Absorbing Tattoo,Wondrous item,Yes,TCA
+Very Rare,Major,Cauldron of Rebirth,Wondrous item,Yes,TCA
+Very Rare,Major,Crystalline Chronicle,Wondrous item,Yes,TCA
+Very Rare,Major,Ghost Step Tattoo,Wondrous item,Yes,TCA
+Very Rare,Major,Lifewell Tattoo,Wondrous item,Yes,TCA
+Rare,Major,Molten Bronze Skin,"Armor (breastplace, half plate, or plate)",Yes,MOOT
+Rare,Minor,Potion of Aqueous Form,Potion,No,MOOT
+Rare,Major,Siren Song Lyre,Wondrous item,Yes,MOOT
+Very Rare,Minor,Sling Bullets of Althemone,Weapon (Sling bullet),No,MOOT
+Rare,Major,Two-Birds Sling,Weapon (Sling),No,MOOT
+Legendary,Major,Ball of Power,Wondrous item,,MTMM
+Legendary,Major,Greenstone Amulet,Wondrous item,,MTMM
+Legendary,Major,Impervious Vestment,Wondrous item,,MTMM
+Legendary,Major,Rattle of Death,Wondrous item,,MTMM
+Legendary,Major,Spoon of Magic Medicine,Wondrous item,,MTMM
+Legendary,Major,Stormfire Amulet,Wondrous item,,MTMM
+Legendary,Major,Unicorn Pendant,Wondrous item,,MTMM
+Legendary,Major,Vampire Torc,Wondrous item,,MTMM
+Legendary,Major,Vestments of Power,Wondrous item,,MTMM
+Very Rare,Major,Bagpipes of Droning,Wondrous item,,MTMM
+Very Rare,Major,Balance of Power,Wondrous item,,MTMM
+Very Rare,Major,Banner of the Storm’s Eye,Wondrous item,,MTMM
+Very Rare,Major,Belt of Naked Invisibility,Wondrous item,,MTMM
+Very Rare,Major,Belt of the Wide Earth,Wondrous item,,MTMM
+Very Rare,Major,Buckle of Armor,Wondrous item,,MTMM
+Very Rare,Major,Claw of Magical Theft,Wondrous item,,MTMM
+Very Rare,Major,Cloak of the Phoenix,Wondrous item,,MTMM
+Very Rare,Major,Crown of Leadership,Wondrous item,,MTMM
+Very Rare,Major,Cube of Abilities,Wondrous item,,MTMM
+Very Rare,Major,Deck of Chance,Wondrous item,,MTMM
+Very Rare,Major,Flute of Faerie,Wondrous item,,MTMM
+Very Rare,Major,Frostfallian Diamond Dust,Wondrous item,,MTMM
+Very Rare,Major,Globe of Sunlight,Wondrous item,,MTMM
+Very Rare,Major,Gong of Celestial Summoning,Wondrous item,,MTMM
+Very Rare,Major,Harp of Thunder,Wondrous item,,MTMM
+Very Rare,Major,Horn of the Tritons,Wondrous item,,MTMM
+Very Rare,Major,Iron Heart,Wondrous item,,MTMM
+Very Rare,Major,Jug of Jade,Wondrous item,,MTMM
+Very Rare,Major,Lamp of Djinni Summoning,Wondrous item,,MTMM
+Very Rare,Major,Mirror of Recall,Wondrous item,,MTMM
+Very Rare,Major,Orb of Storms,Wondrous item,,MTMM
+Very Rare,Major,Portable Bridge,Wondrous item,,MTMM
+Very Rare,Major,Rudder of Guidance,Wondrous item,,MTMM
+Very Rare,Major,Twisted Claw,Wondrous item,,MTMM
+Very Rare,Major,Xylophone of Xenomorphy,Wondrous item,,MTMM
+Very Rare,Major,Yoke of Flight,Wondrous item,,MTMM
+Very Rare,Major,Zoster of Zeal,Wondrous item,,MTMM
+Rare,Major,Heart of Stone,Wondrous item,,MTMM
+Rare,Major,Horn of Four Winds,Wondrous item,,MTMM
+Rare,Major,Icy Strand of the North,Wondrous item,,MTMM
+Rare,Major,Inkwell of Scrollmaking,Wondrous item,,MTMM
+Rare,Major,Jug of Jesting,Wondrous item,,MTMM
+Rare,Major,Ladle of Curing,Wondrous item,,MTMM
+Rare,Major,Lamp of Darkness,Wondrous item,,MTMM
+Rare,Major,Lamp of Honesty,Wondrous item,,MTMM
+Rare,Major,Leaf of Colors,Wondrous item,,MTMM
+Rare,Major,Leaf of Falling,Wondrous item,,MTMM
+Rare,Major,Lens of Perspicacity,Wondrous item,,MTMM
+Rare,Major,Mask of Disguise,Wondrous item,,MTMM
+Rare,Major,Mask of Tragedy,Wondrous item,,MTMM
+Rare,Major,Medallion of Gargoyles,Wondrous item,,MTMM
+Rare,Major,Mirror of Divination,Wondrous item,,MTMM
+Rare,Major,Mirror of Images,Wondrous item,,MTMM
+Rare,Major,Mirror of Seeing,Wondrous item,,MTMM
+Rare,Major,Net of Landing,Wondrous item,,MTMM
+Rare,Major,Net of Snaring,Wondrous item,,MTMM
+Rare,Major,Ointment of Soothing,Wondrous item,,MTMM
+Rare,Major,Periapt of the Sullen Seas,Wondrous item,,MTMM
+Rare,Major,Pouch of Plenty,Wondrous item,,MTMM
+Rare,Major,Quill of Necromancy,Wondrous item,,MTMM
+Rare,Major,Anklet of Hobbling,Wondrous item,,MTMM
+Rare,Major,Aquamarine of Spell Extending,Wondrous item,,MTMM
+Rare,Major,Armband of Healing,Wondrous item,,MTMM
+Rare,Major,Armband of Strength,Wondrous item,,MTMM
+Rare,Major,Badge of Freedom,Wondrous item,,MTMM
+Rare,Major,Badge of Valor,Wondrous item,,MTMM
+Rare,Major,Bag of Flame,Wondrous item,,MTMM
+Rare,Major,Balance of Judgement,Wondrous item,,MTMM
+Rare,Major,Bead of Accuracy,Wondrous item,,MTMM
+Rare,Major,Beady Eye,Wondrous item,,MTMM
+Rare,Major,Bell of Freedom,Wondrous item,,MTMM
+Rare,Major,Blanket of Healing,Wondrous item,,MTMM
+Rare,Major,Bone of Bruising,Wondrous item,,MTMM
+Rare,Major,Bracelet of Animal Speech,Wondrous item,,MTMM
+Rare,Major,Bracers of Lightning,Wondrous item,,MTMM
+Rare,Major,Bracers of Wind,Wondrous item,,MTMM
+Rare,Major,Bridle of Speaking,Wondrous item,,MTMM
+Rare,Major,Bridle of Wings,Wondrous item,,MTMM
+Rare,Major,Buckle of Protection,Wondrous item,,MTMM
+Rare,Major,Bugle of Reviving,Wondrous item,,MTMM
+Rare,Major,Button of Blasting,Wondrous item,,MTMM
+Rare,Major,Button of Rosy Vision,Wondrous item,,MTMM
+Rare,Major,Cage of Entrapment,Wondrous item,,MTMM
+Rare,Major,Cameo of Appearance,Wondrous item,,MTMM
+Rare,Major,Candle of Protection,Wondrous item,,MTMM
+Rare,Major,Cymbals of Crashing,Wondrous item,,MTMM
+Rare,Major,Divan of Divination,Wondrous item,,MTMM
+Rare,Major,Dust of Sleeping,Wondrous item,,MTMM
+Rare,Major,Eyepatch of Sight,Wondrous item,,MTMM
+Rare,Major,Fan of Dancing,Wondrous item,,MTMM
+Rare,Major,Gauntlets of Dexterity,Wondrous item,,MTMM
+Rare,Major,Gauntlets of the Storm,Wondrous item,,MTMM
+Rare,Major,Gavel of Authority,Wondrous item,,MTMM
+Rare,Major,Gloves of the Starry Sky,Wondrous item,,MTMM
+Rare,Major,Goggles of the Golden Sun,Wondrous item,,MTMM
+Rare,Major,Golden Tongue,Wondrous item,,MTMM
+Rare,Major,Gong of Earthquakes,Wondrous item,,MTMM
+Rare,Major,Gong of Whirlwinds,Wondrous item,,MTMM
+Rare,Major,Hammersphere,Wondrous item,,MTMM
+Rare,Major,Harp of Questing,Wondrous item,,MTMM
+Uncommon,Major,Horn of Plenty,Wondrous item,,MTMM
+Uncommon,Major,Infinite Scroll Case,Wondrous item,,MTMM
+Uncommon,Major,Kettle of Drumming,Wondrous item,,MTMM
+Uncommon,Major,Key of Opening,Wondrous item,,MTMM
+Uncommon,Major,Lens of Lighting,Wondrous item,,MTMM
+Uncommon,Major,Libram of Evaluation,Wondrous item,,MTMM
+Uncommon,Major,Libram of Identification,Wondrous item,,MTMM
+Uncommon,Major,Log of Burning,Wondrous item,,MTMM
+Uncommon,Major,Mask of Comedy,Wondrous item,,MTMM
+Uncommon,Major,Medallion of Empathy,Wondrous item,,MTMM
+Uncommon,Major,Mirror of Reading,Wondrous item,,MTMM
+Uncommon,Major,Muzzle of Training,Wondrous item,,MTMM
+Uncommon,Major,Nail of Pointing,Wondrous item,,MTMM
+Uncommon,Major,Necklace of Glittering,Wondrous item,,MTMM
+Uncommon,Major,Needle of Mending,Wondrous item,,MTMM
+Uncommon,Major,Nightcap of Vision,Wondrous item,,MTMM
+Uncommon,Major,Oars of Rowing,Wondrous item,,MTMM
+Uncommon,Major,Parchment of Rolling,Wondrous item,,MTMM
+Uncommon,Major,Pipe of Smoking,Wondrous item,,MTMM
+Uncommon,Major,Pole of Rescue,Wondrous item,,MTMM
+Uncommon,Major,Pouch of Travelling,Wondrous item,,MTMM
+Uncommon,Major,Quill of Forgery,Wondrous item,,MTMM
+Uncommon,Major,Quill of Truth,Wondrous item,,MTMM
+Uncommon,Major,Rake of Tracking,Wondrous item,,MTMM
+Uncommon,Major,Saw of Cutting,Wondrous item,,MTMM
+Uncommon,Major,Scepter of Light,Wondrous item,,MTMM
+Uncommon,Major,Screaming Lantern,Wondrous item,,MTMM
+Uncommon,Major,Scroll of Writing,Wondrous item,,MTMM
+Uncommon,Major,Seeds of Growth,Wondrous item,,MTMM
+Uncommon,Major,Shovel of Digging,Wondrous item,,MTMM
+Uncommon,Major,Slate of Identification,Wondrous item,,MTMM
+Uncommon,Major,Snuffer of Dousing,Wondrous item,,MTMM
+Uncommon,Major,Soap of True Washing,Wondrous item,,MTMM
+Uncommon,Major,String of Lashing,Wondrous item,,MTMM
+Uncommon,Major,Anchor of Seafaring,Wondrous item,,MTMM
+Uncommon,Major,Anklet of Levitation,Wondrous item,,MTMM
+Uncommon,Major,Anklet of Walking,Wondrous item,,MTMM
+Uncommon,Major,Armored Gi,Wondrous item,,MTMM
+Uncommon,Major,Bead of Dew,Wondrous item,,MTMM
+Uncommon,Major,Bellows of Breath,Wondrous item,,MTMM
+Uncommon,Major,Bellows of Strong Wind,Wondrous item,,MTMM
+Uncommon,Major,Belt of Pankration,Wondrous item,,MTMM
+Uncommon,Major,Bone of Animation,Wondrous item,,MTMM
+Uncommon,Major,Boots of Carrying,Wondrous item,,MTMM
+Uncommon,Major,Bottle of Containment,Wondrous item,,MTMM
+Uncommon,Major,Bottle of Fireflies,Wondrous item,,MTMM
+Uncommon,Major,Bottle of Moonlight,Wondrous item,,MTMM
+Uncommon,Major,Bridle of Control,Wondrous item,,MTMM
+Uncommon,Major,Brooch of Bones,Wondrous item,,MTMM
+Uncommon,Major,Broom of Serving,Wondrous item,,MTMM
+Uncommon,Major,Buckle of Weaponry,Wondrous item,,MTMM
+Uncommon,Major,Cane of Armament,Wondrous item,,MTMM
+Uncommon,Major,Cane of Detection,Wondrous item,,MTMM
+Uncommon,Major,Cape of Disguise,Wondrous item,,MTMM
+Uncommon,Major,Cape of Reeking,Wondrous item,,MTMM
+Uncommon,Major,Cat’s Eye Marble,Wondrous item,,MTMM
+Uncommon,Major,Chalice of Colors,Wondrous item,,MTMM
+Uncommon,Major,Chalice of Detection,Wondrous item,,MTMM
+Uncommon,Major,Chalice of Identification,Wondrous item,,MTMM
+Uncommon,Major,Crystal of Alacrity,Wondrous item,,MTMM
+Uncommon,Major,Crystal of Aquatic Action,Wondrous item,,MTMM
+Uncommon,Major,Cube of Luck,Wondrous item,,MTMM
+Uncommon,Major,Curtain of Spying,Wondrous item,,MTMM
+Uncommon,Major,Drum of Silence,Wondrous item,,MTMM
+Uncommon,Major,Drums of Panic,Wondrous item,,MTMM
+Uncommon,Major,Egg of Fog,Wondrous item,,MTMM
+Uncommon,Major,Flute of Courage,Wondrous item,,MTMM
+Uncommon,Major,Gloves of the Grappler,Wondrous item,,MTMM
+Uncommon,Major,Handkerchief of Length,Wondrous item,,MTMM
+Uncommon,Major,Harp of Silence,Wondrous item,,MTMM
+Uncommon,Major,Hasp of Locking,Wondrous item,,MTMM
+Uncommon,Major,Heart of Hearing,Wondrous item,,MTMM
